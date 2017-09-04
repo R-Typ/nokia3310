@@ -17,7 +17,7 @@ int main(int argc, char *argv[])
 {
     if (argc != 2)
     {
-        cout << "Usage: contimp <FILE.vcf>"<<endl;
+        cout << "Usage: "<< argv[0] << " <FILE.vcf>"<<endl;
         return 1;
     }
 
